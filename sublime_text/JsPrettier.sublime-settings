@@ -1,0 +1,14 @@
+{
+  "auto_format_on_save": true,
+  "prettier_options": {
+    "singleQuote": true,
+
+    // "none" - No trailing commas
+    // "es5"  - Trailing commas where valid in ES5 (objects, arrays, etc)
+    // "all"  - Trailing commas wherever possible (function arguments)
+    "trailingComma": "all",
+
+    "parser": "flow",
+    "semi": true
+  }
+}

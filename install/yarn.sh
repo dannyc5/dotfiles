@@ -36,6 +36,7 @@ packages=(
     eslint
     nodemon
     svgo
+    prettier
 )
 
 yarn global add "${packages[@]}"
