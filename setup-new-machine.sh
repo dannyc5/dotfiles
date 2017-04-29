@@ -134,6 +134,11 @@ sudo easy_install Pygments
 
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
+###############################################################################
+# Sublime Text 3                                                              #
+###############################################################################
+
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 ###############################################################################
 # OSX defaults                                                                #
