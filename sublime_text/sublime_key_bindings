@@ -1,0 +1,4 @@
+[
+  { "keys": ["super+shift+c"], "command": "copy_relative_path" },
+]
+

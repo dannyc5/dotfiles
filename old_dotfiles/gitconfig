@@ -1,0 +1,90 @@
+# A good list of alises http://haacked.com/archive/2014/07/28/github-flow-aliases/
+
+[alias]
+  st = status
+  ci = commit
+  cim = commit -m
+  cam = !git add -A && git commit -m
+  br = branch
+  bd = branch -d
+  co = checkout
+  df = diff
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  who = shortlog -s --
+  up = pull
+  pr = pull --rebase
+  switch = !legit switch \"$@\"
+  branches = !legit branches
+  sprout = !legit sprout \"$@\"
+  unpublish = !legit unpublish \"$@\"
+  harvest = !legit harvest \"$@\"
+  sync = !legit sync \"$@\"
+  publish = !legit publish \"$@\"
+  graft = !legit graft \"$@\"
+[core]
+  whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  excludesfile = /Users/danielchang/.gitignore
+[credential]
+  helper = osxkeychain
+[fetch]
+  prune = true
+[help]
+  # Correct typos
+  autocorrect = 1
+
+# Use separate file for username / github token / etc
+[include]
+  path = ~/.gitconfig.local
+
+[color]
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
+[format]
+  pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[diff "ruby"]
+  funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
+[push]
+  default = current
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[merge]
+  tool = opendiff
+[pretty]
+        custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"
+        #                     │        │            │            │             └─ author name
+        #                     │        │            │            └─ message
+        #                     │        │            └─ date (relative)
+        #                     │        └─ decorations (branch, heads or tags)
+        #                     └─ hash (abbreviated)
+
+
+# Any GitHub repo with my username should be checked out r/w by default
+# http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
+[url "git@github.com:danielchangnyc/"]
+        insteadOf = "git://github.com/danielchangnyc/"
+
+# Rewrites of repo paths
+[url "git@github.com:"]
+        insteadOf = "gh:"
+        insteadOf = "git://github.com"
+        pushInsteadOf = "github:"
+        pushInsteadOf = "git://github.com/"
+        pushInsteadOf = "https://github.com/"
+
+[url "git://github.com/"]
+        insteadOf = "github:"
+
+[url "git@gist.github.com:"]
+        insteadOf = "gst:"
+        pushInsteadOf = "gist:"
+        pushInsteadOf = "git://gist.github.com/"
+        pushInsteadOf = "https://gist.github.com/"
+
+[url "git://gist.github.com/"]
+        insteadOf = "gist:"
