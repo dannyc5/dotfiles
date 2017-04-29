@@ -324,6 +324,29 @@ main
 #apm install --packages-file $HOME/.atom/packages.list
 
 ###############################################################################
+# Sublime Text 3                                                              #
+###############################################################################
+
+# Download Package Manager
+# mkdir -p "~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages"
+# curl "https://packagecontrol.io/Package%20Control.sublime-package" > ~/.config/sublime-text-3/Installed\ Packages
+
+# Copy over package list
+# mkdir -p "~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User"
+# cp -r sublime_text/package_control.sublime_settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+
+# Copy over Sublime configs
+
+# User settings
+# cp -r sublime_text/sublime_settings ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings
+
+# Key Bindings
+# cp -r sublime_text/sublime_key_bindings ~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap
+
+# JS Prettier
+# cp -r sublime_text/JsPrettier.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/JsPrettier.sublime-settings
+
+###############################################################################
 # Zsh                                                                         #
 ###############################################################################
 
