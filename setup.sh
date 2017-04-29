@@ -182,7 +182,6 @@ declare -a FILES_TO_SYMLINK=(
   'shell/curlrc'
   'shell/gemrc'
   'shell/inputrc'
-  'shell/screenrc'
 
   'git/gitattributes'
   'git/gitconfig'
