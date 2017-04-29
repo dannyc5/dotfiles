@@ -1,0 +1,41 @@
+{
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
+  "installed_packages":
+  [
+    "Autoprefixer",
+    "Babel",
+    "Babel Snippets",
+    "BetterFindBuffer",
+    "ColorPick",
+    "Emmet",
+    "Emmet Css Snippets",
+    "ESLint",
+    "ESLint-Formatter",
+    "Flow",
+    "Focus File on Sidebar",
+    "Git",
+    "GitGutter",
+    "Handlebars",
+    "JavaScript Completions",
+    "JsPrettier",
+    "JSX",
+    "MoveTab",
+    "NodeRequirer",
+    "Package Control",
+    "PackageResourceViewer",
+    "Path Tools",
+    "ReactJS",
+    "Ruby Slim",
+    "Sass",
+    "ScopeHunter",
+    "SideBarEnhancements",
+    "SublimeLinter",
+    "SublimeLinter-contrib-eslint",
+    "SublimeLinter-contrib-eslint_d",
+    "SublimeLinter-flow",
+    "Theme - Cobalt2"
+  ]
+}
