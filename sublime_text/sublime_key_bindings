@@ -1,4 +1,4 @@
 [
   { "keys": ["super+shift+c"], "command": "copy_relative_path" },
+  { "keys": ["super+shift+m"], "command": "reveal_in_side_bar" },
 ]
-
