@@ -10,7 +10,11 @@
     "Babel",
     "Babel Snippets",
     "BetterFindBuffer",
+    "Case Conversion",
     "ColorPick",
+    "ColorPicker",
+    "Copy Filepath With Line Numbers",
+    "Dockerfile Syntax Highlighting",
     "Emmet",
     "Emmet Css Snippets",
     "ESLint",
@@ -19,10 +23,13 @@
     "Git",
     "GitGutter",
     "Handlebars",
+    "HTML-CSS-JS Prettify",
     "JavaScript Completions",
     "JsPrettier",
     "JSX",
+    "Kotlin",
     "MoveTab",
+    "Naomi",
     "NodeRequirer",
     "Package Control",
     "PackageResourceViewer",
@@ -36,6 +43,8 @@
     "SublimeLinter-contrib-eslint",
     "SublimeLinter-contrib-eslint_d",
     "SublimeLinter-flow",
-    "Theme - Cobalt2"
+    "Swift",
+    "Theme - Cobalt2",
+    "Travis YML Lint"
   ]
 }
