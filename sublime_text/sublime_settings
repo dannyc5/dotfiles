@@ -15,24 +15,70 @@
     "*.jar",
     "*.zip",
     "node_modules/**",
-    "bower_components/**"
+    "bower_components/**",
+    "temp/**",
+    "coverage/**",
+    "tmp/**"
   ],
   "caret_extra_width": 2,
   "caret_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
+  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
   "ensure_newline_at_eof_on_save": true,
-  "font_size": 16,
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.db",
+    "*.sublime-workspace",
+    "*.min.js"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    ".vscode",
+    ".idea",
+    "public",
+    "dist",
+    "log"
+  ],
+  "font_face": "fira code",
+  "font_options": ["gray_antialias"],
+  "font_size": 17,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
   [
     "Vintage"
   ],
+  "indent_guide_options": [
+    "draw_normal",
+    "draw_active"
+  ],
   "rulers":
   [
     100
   ],
   "tab_size": 2,
+  "theme": "Cobalt2.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true
 }

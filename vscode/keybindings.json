@@ -2,5 +2,25 @@
   {
     "key": "cmd+shift+c",
     "command": "extension.copyRelativePathOfActiveFile"
+  },
+  {
+    "key": "shift+alt+cmd+left",
+    "command": "workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "cmd+k shift+cmd+left",
+    "command": "-workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "shift+alt+cmd+right",
+    "command": "workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "cmd+k shift+cmd+right",
+    "command": "-workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "alt+cmd+1",
+    "command": "workbench.action.joinTwoGroups"
   }
 ]
