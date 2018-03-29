@@ -1,0 +1,6 @@
+[
+  {
+    "key": "cmd+shift+c",
+    "command": "extension.copyRelativePathOfActiveFile"
+  }
+]
