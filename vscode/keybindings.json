@@ -52,5 +52,10 @@
     "key": "shift+alt+up",
     "command": "-editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "-markdown.extension.onCtrlEnterKey",
+    "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
   }
 ]
