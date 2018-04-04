@@ -6,8 +6,8 @@ code --install-extension castwide.solargraph
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
-code --install-extension enochc.copy-relative-path
 code --install-extension esbenp.prettier-vscode
+code --install-extension ezforo.copy-relative-path-and-line-numbers
 code --install-extension hedinne.popping-and-locking-vscode
 code --install-extension mauve.terraform
 code --install-extension ms-python.python

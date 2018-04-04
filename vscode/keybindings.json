@@ -1,9 +1,5 @@
 [
   {
-    "key": "cmd+shift+c",
-    "command": "extension.copyRelativePathOfActiveFile"
-  },
-  {
     "key": "shift+alt+cmd+left",
     "command": "workbench.action.moveEditorLeftInGroup"
   },
@@ -57,5 +53,31 @@
     "key": "cmd+enter",
     "command": "-markdown.extension.onCtrlEnterKey",
     "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "shift+alt+cmd+m",
+    "command": "workbench.actions.view.problems"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "-workbench.actions.view.problems"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "copy-relative-path-and-line-numbers.both",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-copy-relative-path-and-line-numbers.both",
+    "when": "editorTextFocus"
   }
 ]
