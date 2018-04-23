@@ -38,6 +38,7 @@
     "Sass",
     "ScopeHunter",
     "SideBarEnhancements",
+    "sublime-github",
     "SublimeLinter",
     "SublimeLinter-contrib-eslint",
     "SublimeLinter-contrib-eslint_d",
