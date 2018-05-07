@@ -44,6 +44,7 @@
     "SublimeLinter-contrib-eslint_d",
     "SublimeLinter-flow",
     "Swift",
+    "TestRSpec",
     "Theme - Cobalt2",
     "Travis YML Lint"
   ]
