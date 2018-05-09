@@ -1,5 +1,6 @@
 [
   { "keys": ["super+shift+c"], "command": "copy_relative_path" },
+  { "keys": ["super+k", "super+c"], "command": "color_pick" },
   { "keys": ["super+k", "super+shift+c"], "command": "copy_reference" },
   { "keys": ["super+shift+m"], "command": "reveal_in_side_bar" },
   { "keys": ["ctrl+shift+\\"], "command": "reindent", "args": {"single_line": false}},
