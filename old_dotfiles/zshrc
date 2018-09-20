@@ -83,7 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export VISUAL="subl -w"
@@ -97,13 +96,15 @@ export YARN_PATH="`yarn global bin`"
 export CUSTOM_BIN_PATH="$HOME/bin"
 export PATH=$USR_PATHS:$PATH:$YARN_PATH:$CUSTOM_BIN_PATH
 
-function code {
+function werk {
   cd /Users/danielchang/Desktop/code/$@
 }
 
+alias zshconfig="subl ~/.zshrc"
 alias hpr="hub pull-request -m"
 alias rrg="rake routes | grep"
 alias sbl="subl ."
+alias vsc="code ."
 alias psqlstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias schemareset="rake db:schema:dump && rake db:setup && rails s"
 alias dbreloadall="dbrecreate && rake db:migrate && rake db:migrate RAILS_ENV=test"
@@ -113,6 +114,9 @@ alias hg="history | grep "
 alias credstash='gcredstash'
 alias glog="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias grpo="git remote prune origin"
+alias be="bundle exec"
+alias ber="bundle exec rspec"
+alias beg="bundle exec guard"
 
 eval "$(rbenv init -)"
 export NVM_DIR="$HOME/.nvm"
@@ -120,3 +124,4 @@ source "$(brew --prefix nvm)/nvm.sh"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.bash_alias_sensitive

@@ -2,6 +2,9 @@
   "auto_format_on_save": true,
   "prettier_options": {
     "singleQuote": true,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "jsxBracketSameLine": true,
 
     // "none" - No trailing commas
     // "es5"  - Trailing commas where valid in ES5 (objects, arrays, etc)
