@@ -21,21 +21,17 @@
     "Flow",
     "Git",
     "GitGutter",
-    "Handlebars",
     "HTML-CSS-JS Prettify",
     "JavaScript Completions",
     "JSON Reindent",
     "JsPrettier",
     "JSX",
-    "Kotlin",
     "MoveTab",
-    "Naomi",
     "NodeRequirer",
     "Package Control",
     "PackageResourceViewer",
     "Path Tools",
     "ReactJS",
-    "Ruby Slim",
     "Sass",
     "ScopeHunter",
     "SideBarEnhancements",
@@ -46,7 +42,6 @@
     "SublimeLinter-flow",
     "Swift",
     "TestRSpec",
-    "Theme - Cobalt2",
-    "Travis YML Lint"
+    "Theme - Cobalt2"
   ]
 }
