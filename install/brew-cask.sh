@@ -8,20 +8,24 @@ brew tap caskroom/versions
 # Install packages
 apps=(
     alfred
+    atom
     sizeup
     dropbox
     google-drive
+    firefox
     flux
+    font-fira-code
     iterm2
-    atom
     google-chrome
+    graphiql
     sublime-text
     lastpass
+    macdown
+    ngrok
+    telegram
     spotify
     slack
     sublime-merge
-    telegram
-    ngrok
 )
 
 brew cask install "${apps[@]}"
