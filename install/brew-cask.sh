@@ -19,6 +19,7 @@ apps=(
     lastpass
     spotify
     slack
+    sublime-merge
     telegram
     ngrok
 )
