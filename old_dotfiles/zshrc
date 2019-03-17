@@ -117,6 +117,7 @@ alias grpo="git remote prune origin"
 alias be="bundle exec"
 alias ber="bundle exec rspec"
 alias beg="bundle exec guard"
+alias ls="exa"
 
 eval "$(rbenv init -)"
 export NVM_DIR="$HOME/.nvm"

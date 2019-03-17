@@ -57,6 +57,7 @@ apps=(
     git
     git-extras
     hub
+    exa
     gnu-sed --with-default-names
     grep --with-default-names
     homebrew/completions/brew-cask-completion
