@@ -34,6 +34,7 @@ packages=(
     flow-bin
     flow-typed
     eslint
+    madge
     nodemon
     svgo
     prettier
