@@ -13,7 +13,6 @@ apps=(
     dropbox
     google-drive
     firefox
-    flux
     font-fira-code
     iterm2
     google-chrome
