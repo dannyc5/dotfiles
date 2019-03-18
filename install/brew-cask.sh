@@ -24,7 +24,6 @@ apps=(
     telegram
     spotify
     slack
-    sublime-merge
 )
 
 brew cask install "${apps[@]}"
