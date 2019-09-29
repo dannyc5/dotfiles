@@ -93,36 +93,30 @@ export EDITOR="subl -w"
 # Paths
 export USR_PATHS=/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/sbin
 export YARN_PATH="`yarn global bin`"
+export PYENV_ROOT="$HOME/.pyenv"
+export PYENV_BIN_PATH="$PYENV_ROOT/bin"
+export GOPATH="$HOME/go"
 export CUSTOM_BIN_PATH="$HOME/bin"
-export PATH=$USR_PATHS:$PATH:$YARN_PATH:$CUSTOM_BIN_PATH
+export PATH=$PYENV_BIN_PATH:$USR_PATHS:$PATH:$YARN_PATH:$GOPATH:$CUSTOM_BIN_PATH
 
 function werk {
   cd /Users/danielchang/Desktop/code/$@
 }
 
-alias zshconfig="subl ~/.zshrc"
-alias hpr="hub pull-request -m"
-alias rrg="rake routes | grep"
-alias sbl="subl ."
-alias vsc="code ."
-alias psqlstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias schemareset="rake db:schema:dump && rake db:setup && rails s"
-alias dbreloadall="dbrecreate && rake db:migrate && rake db:migrate RAILS_ENV=test"
-alias dbrecreate="rake db:drop && rake db:drop RAILS_ENV=test && rake db:create"
-alias rsbp="rails s -b 127.0.0.1 -p 3000"
-alias hg="history | grep "
-alias credstash='gcredstash'
-alias glog="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias grpo="git remote prune origin"
-alias be="bundle exec"
-alias ber="bundle exec rspec"
-alias beg="bundle exec guard"
-alias ls="exa"
+source ~/.bash_aliases
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 
 eval "$(rbenv init -)"
+
 export NVM_DIR="$HOME/.nvm"
 source "$(brew --prefix nvm)/nvm.sh"
 
+export VIRTUALENVWRAPPER_PYTHON=$(which python3)
+source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.bash_alias_sensitive
