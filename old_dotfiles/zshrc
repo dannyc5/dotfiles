@@ -96,8 +96,9 @@ export YARN_PATH="`yarn global bin`"
 export PYENV_ROOT="$HOME/.pyenv"
 export PYENV_BIN_PATH="$PYENV_ROOT/bin"
 export GOPATH="$HOME/go"
+export GO_BIN_PATH="$GOPATH/bin"
 export CUSTOM_BIN_PATH="$HOME/bin"
-export PATH=$PYENV_BIN_PATH:$USR_PATHS:$PATH:$YARN_PATH:$GOPATH:$CUSTOM_BIN_PATH
+export PATH=$PYENV_BIN_PATH:$USR_PATHS:$PATH:$YARN_PATH:$GOPATH:$GO_BIN_PATH:$CUSTOM_BIN_PATH
 
 function werk {
   cd /Users/danielchang/Desktop/code/$@
