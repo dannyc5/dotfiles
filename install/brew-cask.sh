@@ -8,7 +8,6 @@ brew tap caskroom/versions
 # Install packages
 apps=(
     alfred
-    atom
     sizeup
     dropbox
     google-drive
