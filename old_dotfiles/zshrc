@@ -11,6 +11,9 @@ ZSH_THEME="agnoster"
 
 DEFAULT_USER=`whoami`
 
+# Fix issue with zsh-autocomplete backspace over-deleting chars
+export LC_CTYPE=en_US.UTF-8
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
