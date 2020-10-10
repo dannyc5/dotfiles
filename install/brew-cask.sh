@@ -4,6 +4,7 @@
 brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
+brew tap homebrew/cask-fonts
 
 # Install packages
 apps=(
