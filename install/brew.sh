@@ -75,6 +75,8 @@ apps=(
     wifi-password
     macvim
     vim
+    zsh-syntax-highlighting
+    zsh-autocomplete
 )
 
 brew install "${apps[@]}"
