@@ -96,8 +96,6 @@ export EDITOR="subl -w"
 # Paths
 export USR_PATHS=/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/sbin
 export YARN_PATH="`yarn global bin`"
-export PYENV_ROOT="$HOME/.pyenv"
-export PYENV_BIN_PATH="$PYENV_ROOT/bin"
 export GOPATH="$HOME/go"
 export GO_BIN_PATH="$GOPATH/bin"
 export CUSTOM_BIN_PATH="$HOME/bin"
@@ -109,18 +107,10 @@ function werk {
 
 source ~/.bash_aliases
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
 eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
 source "$(brew --prefix nvm)/nvm.sh"
-
-export VIRTUALENVWRAPPER_PYTHON=$(which python3)
-source /usr/local/bin/virtualenvwrapper.sh
-export WORKON_HOME=$HOME/.virtualenvs
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
