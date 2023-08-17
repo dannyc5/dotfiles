@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/danielchang/.oh-my-zsh
+export ZSH=/Users/dan.chang/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -94,15 +94,17 @@ export GIT_EDITOR="subl -w"
 export EDITOR="subl -w"
 
 # Paths
+export HOMEBREW_PATH=/opt/homebrew/bin
 export USR_PATHS=/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/sbin
-export YARN_PATH="`yarn global bin`"
 export GOPATH="$HOME/go"
 export GO_BIN_PATH="$GOPATH/bin"
 export CUSTOM_BIN_PATH="$HOME/bin"
-export PATH=$PYENV_BIN_PATH:$USR_PATHS:$PATH:$YARN_PATH:$GOPATH:$GO_BIN_PATH:$CUSTOM_BIN_PATH
+export PATH=$HOMEBREW_PATH:$USR_PATHS:$PATH:$GOPATH:$GO_BIN_PATH:$CUSTOM_BIN_PATH
+export YARN_PATH="`yarn global bin`"
+export PATH=$PATH:$YARN_PATH
 
 function werk {
-  cd /Users/danielchang/Desktop/code/$@
+  cd /Users/dan.chang/Desktop/code/$@
 }
 
 source ~/.bash_aliases

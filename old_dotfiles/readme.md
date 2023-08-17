@@ -82,6 +82,7 @@ cp old_dotfiles/gitconfig ~/.gitconfig
 cp old_dotfiles/gitignore ~/.gitignore
 cp old_dotfiles/vimrc ~/.vimrc
 cp old_dotfiles/zshrc ~/.zshrc
+cp old_dotfiles/zprofile ~/.zprofile
 ```
 
 ## Sublime Packages

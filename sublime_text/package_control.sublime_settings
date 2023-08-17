@@ -25,7 +25,6 @@
     "JavaScript Completions",
     "JSON Reindent",
     "JsPrettier",
-    "Kotlin",
     "MoveTab",
     "NodeRequirer",
     "Package Control",
@@ -42,9 +41,7 @@
     "SublimeLinter-contrib-eslint_d",
     "SublimeLinter-flow",
     "SublimeLinter-tslint",
-    "Swift",
     "TestRSpec",
-    "Theme - Cobalt2",
-    "TypeScript"
+    "Theme - Cobalt2"
   ]
 }
